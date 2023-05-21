@@ -1,9 +1,15 @@
 let firstName ="Giorgi"
 let lastName ="Sarkisyan"
 let Age ="17"
-let relationshipStatus ="married"
-console.log(`My name is ${firstName}. My last name is ${lastName}, I am ${Age} years old and I am ${relationshipStatus}`)
-console.log("My" + " " + "Name" + " " + "is" + " " + firstName + "." + " " + "Last" + " " + "name" + " " + "is" + " " + lastName + "." + " " + "Age" + " " + "is" + " " + Age + "." + " " + "I" + " " + "am" + " " + relationshipStatus)
+let marriage = "marriage"
+if (Age > 18) {
+    marriage = "married"
+}
+else{
+    marriage = "not married"
+}
+console.log(`My name is ${firstName}. My last name is ${lastName}, I am ${Age} years old and I am ${marriage}`)
+console.log("My" + " " + "Name" + " " + "is" + " " + firstName + "." + " " + "Last" + " " + "name" + " " + "is" + " " + lastName + "." + " " + "Age" + " " + "is" + " " + Age + "." + " " + "I" + " " + "am" + " " + marriage)
 let a = 2
 let b = 5
 let c = 3
